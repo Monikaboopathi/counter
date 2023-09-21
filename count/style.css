@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgb(243, 148, 203), rgb(202, 124, 163), rgb(243, 148, 203));
+}
+.counter{
+    background-color: rgb(243, 148, 203);
+    text-align: center;
+    margin:100px 500px;
+    padding: 60px;
+border-radius: 20px;       
+    
+    }
+    .counter:hover{
+        background-color: rgb(243, 148, 203);
+        box-shadow: 0 5px 10px;
+        border-radius: 20px;
+        border: 1px solid  rgb(189, 18, 103);
+        }
+    #count{
+        padding: 20px;
+        margin: 20px;
+        color: rgb(14, 4, 36);
+        font-size: 30px;
+    }
+#decrement{
+        padding: 20px;
+    border-radius: 50%;
+    border: 1px solid rgb(189, 18, 103);
+    font-size: large;
+    color: rgb(1, 15, 22);
+    cursor: pointer;
+}
+#decrement:hover{
+    background-color: rgb(170, 7, 15);
+    }
+#increment{
+        padding: 20px;
+    border-radius: 50%;
+    border: 1px solid rgb(189, 18, 103);
+    font-size: large;
+    cursor: pointer;
+}
+#increment:hover{
+    background-color: rgb(38, 116, 7);
+}
+h1{
+    
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 72px;
+    font-weight: 500;
+    margin: 30px 0px;
+background:linear-gradient(pink, rgb(179, 7, 121));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
